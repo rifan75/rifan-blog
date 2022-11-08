@@ -1,0 +1,28 @@
+{
+  "title": "Authentication Patterns for Next.js",
+  "publishedAt": "2020-08-17",
+  "summary": "Learn how to add authentication with Next.js. The guide covers custom React Hooks, protecting routes and redirecting on the server, and includes a variety of examples.",
+  "image": "/static/images/nextjs-authentication/banner.png",
+  "body": {
+    "raw": "\r\nAuthentication verifies who a user is, while authorization controls what a user can access. Next.js supports multiple patterns for authentication, each designed for different use cases. This guide will allow you to choose your adventure based on your constraints.\r\n\r\n> **Update 2021:** This guide has been moved to the [official Next.js documentation](https://nextjs.org/docs/authentication)!\r\n",
+    "code": "var Component=(()=>{var d=Object.create;var a=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,p=Object.prototype.hasOwnProperty;var x=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var o in t)a(e,o,{get:t[o],enumerable:!0})},r=(e,t,o,i)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let s of m(t))!p.call(e,s)&&s!==o&&a(e,s,{get:()=>t[s],enumerable:!(i=l(t,s))||i.enumerable});return e};var j=(e,t,o)=>(o=e!=null?d(g(e)):{},r(t||!e||!e.__esModule?a(o,\"default\",{value:e,enumerable:!0}):o,e)),b=e=>r(a({},\"__esModule\",{value:!0}),e);var u=x((N,c)=>{c.exports=_jsx_runtime});var y={};f(y,{default:()=>v,frontmatter:()=>w});var n=j(u()),w={title:\"Authentication Patterns for Next.js\",publishedAt:\"2020-08-17\",summary:\"Learn how to add authentication with Next.js. The guide covers custom React Hooks, protecting routes and redirecting on the server, and includes a variety of examples.\",image:\"/static/images/nextjs-authentication/banner.png\"};function h(e){let t=Object.assign({p:\"p\",blockquote:\"blockquote\",strong:\"strong\",a:\"a\"},e.components);return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.p,{children:\"Authentication verifies who a user is, while authorization controls what a user can access. Next.js supports multiple patterns for authentication, each designed for different use cases. This guide will allow you to choose your adventure based on your constraints.\"}),`\n`,(0,n.jsxs)(t.blockquote,{children:[`\n`,(0,n.jsxs)(t.p,{children:[(0,n.jsx)(t.strong,{children:\"Update 2021:\"}),\" This guide has been moved to the \",(0,n.jsx)(t.a,{href:\"https://nextjs.org/docs/authentication\",children:\"official Next.js documentation\"}),\"!\"]}),`\n`]})]})}function _(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,Object.assign({},e,{children:(0,n.jsx)(h,e)})):h(e)}var v=_;return b(y);})();\n;return Component;"
+  },
+  "_id": "blog/nextjs-authentication.mdx",
+  "_raw": {
+    "sourceFilePath": "blog/nextjs-authentication.mdx",
+    "sourceFileName": "nextjs-authentication.mdx",
+    "sourceFileDir": "blog",
+    "contentType": "mdx",
+    "flattenedPath": "blog/nextjs-authentication"
+  },
+  "type": "Blog",
+  "readingTime": {
+    "text": "1 min read",
+    "minutes": 0.26,
+    "time": 15600,
+    "words": 52
+  },
+  "wordCount": 54,
+  "tweetIds": [],
+  "slug": "nextjs-authentication"
+}

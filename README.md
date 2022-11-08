@@ -1,7 +1,7 @@
-Rifan Blog
+**Rifan Blog**
 
 Stack
--Nextjs typescript
--MarkDown For Content
+ - Nextjs typescript
+ - MarkDown For Content
 
 

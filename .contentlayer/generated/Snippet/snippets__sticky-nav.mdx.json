@@ -1,0 +1,27 @@
+{
+  "title": "Sticky Nav",
+  "description": "Create a fixed navbar.",
+  "logo": "css.png",
+  "body": {
+    "raw": "\r\n```css\r\n.navbar {\r\n  position: sticky;\r\n  z-index: 10;\r\n  top: 0;\r\n  backdrop-filter: saturate(180%) blur(20px);\r\n}\r\n```\r\n\r\nThe blur effect is nice. Used on this site.\r\n",
+    "code": "var Component=(()=>{var d=Object.create;var t=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var u=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,N=Object.prototype.hasOwnProperty;var k=(a,n)=>()=>(n||a((n={exports:{}}).exports,n),n.exports),g=(a,n)=>{for(var s in n)t(a,s,{get:n[s],enumerable:!0})},i=(a,n,s,l)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let c of u(n))!N.call(a,c)&&c!==s&&t(a,c,{get:()=>n[c],enumerable:!(l=m(n,c))||l.enumerable});return a};var x=(a,n,s)=>(s=a!=null?d(h(a)):{},i(n||!a||!a.__esModule?t(s,\"default\",{value:a,enumerable:!0}):s,a)),b=a=>i(t({},\"__esModule\",{value:!0}),a);var r=k((C,o)=>{o.exports=_jsx_runtime});var _={};g(_,{default:()=>y,frontmatter:()=>f});var e=x(r()),f={title:\"Sticky Nav\",description:\"Create a fixed navbar.\",logo:\"css.png\"};function p(a){let n=Object.assign({pre:\"pre\",code:\"code\",span:\"span\",p:\"p\"},a.components);return(0,e.jsxs)(e.Fragment,{children:[(0,e.jsx)(n.pre,{className:\"language-css\",children:(0,e.jsxs)(n.code,{className:\"language-css code-highlight\",children:[(0,e.jsxs)(n.span,{className:\"code-line\",children:[(0,e.jsx)(n.span,{className:\"token selector\",children:(0,e.jsx)(n.span,{className:\"token class\",children:\".navbar\"})}),\" \",(0,e.jsx)(n.span,{className:\"token punctuation\",children:\"{\"}),`\\r\n`]}),(0,e.jsxs)(n.span,{className:\"code-line\",children:[\"  \",(0,e.jsx)(n.span,{className:\"token property\",children:\"position\"}),(0,e.jsx)(n.span,{className:\"token punctuation\",children:\":\"}),\" sticky\",(0,e.jsx)(n.span,{className:\"token punctuation\",children:\";\"}),`\\r\n`]}),(0,e.jsxs)(n.span,{className:\"code-line\",children:[\"  \",(0,e.jsx)(n.span,{className:\"token property\",children:\"z-index\"}),(0,e.jsx)(n.span,{className:\"token punctuation\",children:\":\"}),\" \",(0,e.jsx)(n.span,{className:\"token number\",children:\"10\"}),(0,e.jsx)(n.span,{className:\"token punctuation\",children:\";\"}),`\\r\n`]}),(0,e.jsxs)(n.span,{className:\"code-line\",children:[\"  \",(0,e.jsx)(n.span,{className:\"token property\",children:\"top\"}),(0,e.jsx)(n.span,{className:\"token punctuation\",children:\":\"}),\" \",(0,e.jsx)(n.span,{className:\"token number\",children:\"0\"}),(0,e.jsx)(n.span,{className:\"token punctuation\",children:\";\"}),`\\r\n`]}),(0,e.jsxs)(n.span,{className:\"code-line\",children:[\"  \",(0,e.jsx)(n.span,{className:\"token property\",children:\"backdrop-filter\"}),(0,e.jsx)(n.span,{className:\"token punctuation\",children:\":\"}),\" \",(0,e.jsx)(n.span,{className:\"token function\",children:\"saturate\"}),(0,e.jsx)(n.span,{className:\"token punctuation\",children:\"(\"}),(0,e.jsx)(n.span,{className:\"token number\",children:\"180\"}),(0,e.jsx)(n.span,{className:\"token unit\",children:\"%\"}),(0,e.jsx)(n.span,{className:\"token punctuation\",children:\")\"}),\" \",(0,e.jsx)(n.span,{className:\"token function\",children:\"blur\"}),(0,e.jsx)(n.span,{className:\"token punctuation\",children:\"(\"}),(0,e.jsx)(n.span,{className:\"token number\",children:\"20\"}),(0,e.jsx)(n.span,{className:\"token unit\",children:\"px\"}),(0,e.jsx)(n.span,{className:\"token punctuation\",children:\")\"}),(0,e.jsx)(n.span,{className:\"token punctuation\",children:\";\"}),`\\r\n`]}),(0,e.jsxs)(n.span,{className:\"code-line\",children:[(0,e.jsx)(n.span,{className:\"token punctuation\",children:\"}\"}),`\n`]})]})}),`\n`,(0,e.jsx)(n.p,{children:\"The blur effect is nice. Used on this site.\"})]})}function j(a={}){let{wrapper:n}=a.components||{};return n?(0,e.jsx)(n,Object.assign({},a,{children:(0,e.jsx)(p,a)})):p(a)}var y=j;return b(_);})();\n;return Component;"
+  },
+  "_id": "snippets/sticky-nav.mdx",
+  "_raw": {
+    "sourceFilePath": "snippets/sticky-nav.mdx",
+    "sourceFileName": "sticky-nav.mdx",
+    "sourceFileDir": "snippets",
+    "contentType": "mdx",
+    "flattenedPath": "snippets/sticky-nav"
+  },
+  "type": "Snippet",
+  "readingTime": {
+    "text": "1 min read",
+    "minutes": 0.115,
+    "time": 6900,
+    "words": 23
+  },
+  "wordCount": 25,
+  "tweetIds": [],
+  "slug": "sticky-nav"
+}
